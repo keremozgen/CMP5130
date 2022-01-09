@@ -1,0 +1,2517 @@
+Random Forest Classifier
+F1 score: 0.9833333333333333
+Precision: 0.9672131147540983
+Recall: 1.0
+Accuracy: 0.9983257994307718
+Confusion matrix: 
+[[5668   10]
+ [   0  295]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      5678
+           1       0.97      1.00      0.98       295
+
+    accuracy                           1.00      5973
+   macro avg       0.98      1.00      0.99      5973
+weighted avg       1.00      1.00      1.00      5973
+
+Naive Bayes Classifier
+F1 score: 0.0
+Precision: 0.0
+Recall: 0.0
+Accuracy: 0.9506110832077683
+Confusion matrix: 
+[[5678    0]
+ [ 295    0]]
+Classification report:               precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97      5678
+           1       0.00      0.00      0.00       295
+
+    accuracy                           0.95      5973
+   macro avg       0.48      0.50      0.49      5973
+weighted avg       0.90      0.95      0.93      5973
+
+Logistic Regression Classifier
+F1 score: 0.984974958263773
+Precision: 0.9703947368421053
+Recall: 1.0
+Accuracy: 0.9984932194876946
+Confusion matrix: 
+[[5669    9]
+ [   0  295]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      5678
+           1       0.97      1.00      0.98       295
+
+    accuracy                           1.00      5973
+   macro avg       0.99      1.00      0.99      5973
+weighted avg       1.00      1.00      1.00      5973
+
+Support Vector Machine Classifier
+F1 score: 0.9365079365079364
+Precision: 0.8805970149253731
+Recall: 1.0
+Accuracy: 0.9933031977230872
+Confusion matrix: 
+[[5638   40]
+ [   0  295]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      0.99      1.00      5678
+           1       0.88      1.00      0.94       295
+
+    accuracy                           0.99      5973
+   macro avg       0.94      1.00      0.97      5973
+weighted avg       0.99      0.99      0.99      5973
+
+Decision Tree Classifier
+F1 score: 0.9833333333333333
+Precision: 0.9672131147540983
+Recall: 1.0
+Accuracy: 0.9983257994307718
+Confusion matrix: 
+[[5668   10]
+ [   0  295]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      5678
+           1       0.97      1.00      0.98       295
+
+    accuracy                           1.00      5973
+   macro avg       0.98      1.00      0.99      5973
+weighted avg       1.00      1.00      1.00      5973
+
+K-Nearest Neighbors Classifier
+F1 score: 0.9948892674616696
+Precision: 1.0
+Recall: 0.9898305084745763
+Accuracy: 0.9994977398292315
+Confusion matrix: 
+[[5678    0]
+ [   3  292]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      5678
+           1       1.00      0.99      0.99       295
+
+    accuracy                           1.00      5973
+   macro avg       1.00      0.99      1.00      5973
+weighted avg       1.00      1.00      1.00      5973
+
+Neural Network Classifier
+F1 score: 0.0
+Precision: 0.0
+Recall: 0.0
+Accuracy: 0.9506110832077683
+Confusion matrix: 
+[[5678    0]
+ [ 295    0]]
+Classification report:               precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97      5678
+           1       0.00      0.00      0.00       295
+
+    accuracy                           0.95      5973
+   macro avg       0.48      0.50      0.49      5973
+weighted avg       0.90      0.95      0.93      5973
+
+Deep Neural Network Classifier
+F1 score: 0.0
+Precision: 0.0
+Recall: 0.0
+Accuracy: 0.9506110832077683
+Confusion matrix: 
+[[5678    0]
+ [ 295    0]]
+Classification report:               precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97      5678
+           1       0.00      0.00      0.00       295
+
+    accuracy                           0.95      5973
+   macro avg       0.48      0.50      0.49      5973
+weighted avg       0.90      0.95      0.93      5973
+
+Next training ratio: 0.1
+Random Forest Classifier
+F1 score: 0.9965635738831615
+Precision: 1.0
+Recall: 0.9931506849315068
+Accuracy: 0.9996465182043125
+Confusion matrix: 
+[[5366    0]
+ [   2  290]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      5366
+           1       1.00      0.99      1.00       292
+
+    accuracy                           1.00      5658
+   macro avg       1.00      1.00      1.00      5658
+weighted avg       1.00      1.00      1.00      5658
+
+Naive Bayes Classifier
+F1 score: 0.0
+Precision: 0.0
+Recall: 0.0
+Accuracy: 0.9483916578296218
+Confusion matrix: 
+[[5366    0]
+ [ 292    0]]
+Classification report:               precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97      5366
+           1       0.00      0.00      0.00       292
+
+    accuracy                           0.95      5658
+   macro avg       0.47      0.50      0.49      5658
+weighted avg       0.90      0.95      0.92      5658
+
+Logistic Regression Classifier
+F1 score: 0.9965635738831615
+Precision: 1.0
+Recall: 0.9931506849315068
+Accuracy: 0.9996465182043125
+Confusion matrix: 
+[[5366    0]
+ [   2  290]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      5366
+           1       1.00      0.99      1.00       292
+
+    accuracy                           1.00      5658
+   macro avg       1.00      1.00      1.00      5658
+weighted avg       1.00      1.00      1.00      5658
+
+Support Vector Machine Classifier
+F1 score: 0.9589490968801314
+Precision: 0.9211356466876972
+Recall: 1.0
+Accuracy: 0.995581477553906
+Confusion matrix: 
+[[5341   25]
+ [   0  292]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      5366
+           1       0.92      1.00      0.96       292
+
+    accuracy                           1.00      5658
+   macro avg       0.96      1.00      0.98      5658
+weighted avg       1.00      1.00      1.00      5658
+
+Decision Tree Classifier
+F1 score: 0.9965635738831615
+Precision: 1.0
+Recall: 0.9931506849315068
+Accuracy: 0.9996465182043125
+Confusion matrix: 
+[[5366    0]
+ [   2  290]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      5366
+           1       1.00      0.99      1.00       292
+
+    accuracy                           1.00      5658
+   macro avg       1.00      1.00      1.00      5658
+weighted avg       1.00      1.00      1.00      5658
+
+K-Nearest Neighbors Classifier
+F1 score: 0.9965870307167235
+Precision: 0.9931972789115646
+Recall: 1.0
+Accuracy: 0.9996465182043125
+Confusion matrix: 
+[[5364    2]
+ [   0  292]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      5366
+           1       0.99      1.00      1.00       292
+
+    accuracy                           1.00      5658
+   macro avg       1.00      1.00      1.00      5658
+weighted avg       1.00      1.00      1.00      5658
+
+Neural Network Classifier
+F1 score: 0.0
+Precision: 0.0
+Recall: 0.0
+Accuracy: 0.9483916578296218
+Confusion matrix: 
+[[5366    0]
+ [ 292    0]]
+Classification report:               precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97      5366
+           1       0.00      0.00      0.00       292
+
+    accuracy                           0.95      5658
+   macro avg       0.47      0.50      0.49      5658
+weighted avg       0.90      0.95      0.92      5658
+
+Deep Neural Network Classifier
+F1 score: 0.9948364888123925
+Precision: 1.0
+Recall: 0.9897260273972602
+Accuracy: 0.9994697773064687
+Confusion matrix: 
+[[5366    0]
+ [   3  289]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      5366
+           1       1.00      0.99      0.99       292
+
+    accuracy                           1.00      5658
+   macro avg       1.00      0.99      1.00      5658
+weighted avg       1.00      1.00      1.00      5658
+
+Next training ratio: 0.15000000000000002
+Random Forest Classifier
+F1 score: 0.9981024667931689
+Precision: 1.0
+Recall: 0.9962121212121212
+Accuracy: 0.9998129092609915
+Confusion matrix: 
+[[5081    0]
+ [   1  263]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      5081
+           1       1.00      1.00      1.00       264
+
+    accuracy                           1.00      5345
+   macro avg       1.00      1.00      1.00      5345
+weighted avg       1.00      1.00      1.00      5345
+
+Naive Bayes Classifier
+F1 score: 0.0
+Precision: 0.0
+Recall: 0.0
+Accuracy: 0.9506080449017774
+Confusion matrix: 
+[[5081    0]
+ [ 264    0]]
+Classification report:               precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97      5081
+           1       0.00      0.00      0.00       264
+
+    accuracy                           0.95      5345
+   macro avg       0.48      0.50      0.49      5345
+weighted avg       0.90      0.95      0.93      5345
+
+Logistic Regression Classifier
+F1 score: 0.9981024667931689
+Precision: 1.0
+Recall: 0.9962121212121212
+Accuracy: 0.9998129092609915
+Confusion matrix: 
+[[5081    0]
+ [   1  263]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      5081
+           1       1.00      1.00      1.00       264
+
+    accuracy                           1.00      5345
+   macro avg       1.00      1.00      1.00      5345
+weighted avg       1.00      1.00      1.00      5345
+
+Support Vector Machine Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[5081    0]
+ [   0  264]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      5081
+           1       1.00      1.00      1.00       264
+
+    accuracy                           1.00      5345
+   macro avg       1.00      1.00      1.00      5345
+weighted avg       1.00      1.00      1.00      5345
+
+Decision Tree Classifier
+F1 score: 0.9981024667931689
+Precision: 1.0
+Recall: 0.9962121212121212
+Accuracy: 0.9998129092609915
+Confusion matrix: 
+[[5081    0]
+ [   1  263]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      5081
+           1       1.00      1.00      1.00       264
+
+    accuracy                           1.00      5345
+   macro avg       1.00      1.00      1.00      5345
+weighted avg       1.00      1.00      1.00      5345
+
+K-Nearest Neighbors Classifier
+F1 score: 0.9906191369606004
+Precision: 0.9814126394052045
+Recall: 1.0
+Accuracy: 0.9990645463049579
+Confusion matrix: 
+[[5076    5]
+ [   0  264]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      5081
+           1       0.98      1.00      0.99       264
+
+    accuracy                           1.00      5345
+   macro avg       0.99      1.00      1.00      5345
+weighted avg       1.00      1.00      1.00      5345
+
+Neural Network Classifier
+F1 score: 0.0
+Precision: 0.0
+Recall: 0.0
+Accuracy: 0.9506080449017774
+Confusion matrix: 
+[[5081    0]
+ [ 264    0]]
+Classification report:               precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97      5081
+           1       0.00      0.00      0.00       264
+
+    accuracy                           0.95      5345
+   macro avg       0.48      0.50      0.49      5345
+weighted avg       0.90      0.95      0.93      5345
+
+Deep Neural Network Classifier
+F1 score: 0.9981024667931689
+Precision: 1.0
+Recall: 0.9962121212121212
+Accuracy: 0.9998129092609915
+Confusion matrix: 
+[[5081    0]
+ [   1  263]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      5081
+           1       1.00      1.00      1.00       264
+
+    accuracy                           1.00      5345
+   macro avg       1.00      1.00      1.00      5345
+weighted avg       1.00      1.00      1.00      5345
+
+Next training ratio: 0.2
+Random Forest Classifier
+F1 score: 0.9979879275653923
+Precision: 1.0
+Recall: 0.9959839357429718
+Accuracy: 0.9998011928429423
+Confusion matrix: 
+[[4781    0]
+ [   1  248]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      4781
+           1       1.00      1.00      1.00       249
+
+    accuracy                           1.00      5030
+   macro avg       1.00      1.00      1.00      5030
+weighted avg       1.00      1.00      1.00      5030
+
+Naive Bayes Classifier
+F1 score: 0.0
+Precision: 0.0
+Recall: 0.0
+Accuracy: 0.9504970178926442
+Confusion matrix: 
+[[4781    0]
+ [ 249    0]]
+Classification report:               precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97      4781
+           1       0.00      0.00      0.00       249
+
+    accuracy                           0.95      5030
+   macro avg       0.48      0.50      0.49      5030
+weighted avg       0.90      0.95      0.93      5030
+
+Logistic Regression Classifier
+F1 score: 0.9979879275653923
+Precision: 1.0
+Recall: 0.9959839357429718
+Accuracy: 0.9998011928429423
+Confusion matrix: 
+[[4781    0]
+ [   1  248]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      4781
+           1       1.00      1.00      1.00       249
+
+    accuracy                           1.00      5030
+   macro avg       1.00      1.00      1.00      5030
+weighted avg       1.00      1.00      1.00      5030
+
+Support Vector Machine Classifier
+F1 score: 0.9898580121703854
+Precision: 1.0
+Recall: 0.9799196787148594
+Accuracy: 0.9990059642147118
+Confusion matrix: 
+[[4781    0]
+ [   5  244]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      4781
+           1       1.00      0.98      0.99       249
+
+    accuracy                           1.00      5030
+   macro avg       1.00      0.99      0.99      5030
+weighted avg       1.00      1.00      1.00      5030
+
+Decision Tree Classifier
+F1 score: 0.9979879275653923
+Precision: 1.0
+Recall: 0.9959839357429718
+Accuracy: 0.9998011928429423
+Confusion matrix: 
+[[4781    0]
+ [   1  248]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      4781
+           1       1.00      1.00      1.00       249
+
+    accuracy                           1.00      5030
+   macro avg       1.00      1.00      1.00      5030
+weighted avg       1.00      1.00      1.00      5030
+
+K-Nearest Neighbors Classifier
+F1 score: 0.9900596421471173
+Precision: 0.9803149606299213
+Recall: 1.0
+Accuracy: 0.9990059642147118
+Confusion matrix: 
+[[4776    5]
+ [   0  249]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      4781
+           1       0.98      1.00      0.99       249
+
+    accuracy                           1.00      5030
+   macro avg       0.99      1.00      0.99      5030
+weighted avg       1.00      1.00      1.00      5030
+
+Neural Network Classifier
+F1 score: 0.0
+Precision: 0.0
+Recall: 0.0
+Accuracy: 0.9504970178926442
+Confusion matrix: 
+[[4781    0]
+ [ 249    0]]
+Classification report:               precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97      4781
+           1       0.00      0.00      0.00       249
+
+    accuracy                           0.95      5030
+   macro avg       0.48      0.50      0.49      5030
+weighted avg       0.90      0.95      0.93      5030
+
+Deep Neural Network Classifier
+F1 score: 0.9979879275653923
+Precision: 1.0
+Recall: 0.9959839357429718
+Accuracy: 0.9998011928429423
+Confusion matrix: 
+[[4781    0]
+ [   1  248]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      4781
+           1       1.00      1.00      1.00       249
+
+    accuracy                           1.00      5030
+   macro avg       1.00      1.00      1.00      5030
+weighted avg       1.00      1.00      1.00      5030
+
+Next training ratio: 0.25
+Random Forest Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[4476    0]
+ [   0  239]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      4476
+           1       1.00      1.00      1.00       239
+
+    accuracy                           1.00      4715
+   macro avg       1.00      1.00      1.00      4715
+weighted avg       1.00      1.00      1.00      4715
+
+Naive Bayes Classifier
+F1 score: 0.0
+Precision: 0.0
+Recall: 0.0
+Accuracy: 0.9493107104984093
+Confusion matrix: 
+[[4476    0]
+ [ 239    0]]
+Classification report:               precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97      4476
+           1       0.00      0.00      0.00       239
+
+    accuracy                           0.95      4715
+   macro avg       0.47      0.50      0.49      4715
+weighted avg       0.90      0.95      0.92      4715
+
+Logistic Regression Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[4476    0]
+ [   0  239]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      4476
+           1       1.00      1.00      1.00       239
+
+    accuracy                           1.00      4715
+   macro avg       1.00      1.00      1.00      4715
+weighted avg       1.00      1.00      1.00      4715
+
+Support Vector Machine Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[4476    0]
+ [   0  239]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      4476
+           1       1.00      1.00      1.00       239
+
+    accuracy                           1.00      4715
+   macro avg       1.00      1.00      1.00      4715
+weighted avg       1.00      1.00      1.00      4715
+
+Decision Tree Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[4476    0]
+ [   0  239]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      4476
+           1       1.00      1.00      1.00       239
+
+    accuracy                           1.00      4715
+   macro avg       1.00      1.00      1.00      4715
+weighted avg       1.00      1.00      1.00      4715
+
+K-Nearest Neighbors Classifier
+F1 score: 0.9958333333333333
+Precision: 0.991701244813278
+Recall: 1.0
+Accuracy: 0.999575821845175
+Confusion matrix: 
+[[4474    2]
+ [   0  239]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      4476
+           1       0.99      1.00      1.00       239
+
+    accuracy                           1.00      4715
+   macro avg       1.00      1.00      1.00      4715
+weighted avg       1.00      1.00      1.00      4715
+
+Neural Network Classifier
+F1 score: 0.0
+Precision: 0.0
+Recall: 0.0
+Accuracy: 0.9493107104984093
+Confusion matrix: 
+[[4476    0]
+ [ 239    0]]
+Classification report:               precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97      4476
+           1       0.00      0.00      0.00       239
+
+    accuracy                           0.95      4715
+   macro avg       0.47      0.50      0.49      4715
+weighted avg       0.90      0.95      0.92      4715
+
+Deep Neural Network Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[4476    0]
+ [   0  239]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      4476
+           1       1.00      1.00      1.00       239
+
+    accuracy                           1.00      4715
+   macro avg       1.00      1.00      1.00      4715
+weighted avg       1.00      1.00      1.00      4715
+
+Next training ratio: 0.3
+Random Forest Classifier
+F1 score: 0.9977827050997783
+Precision: 1.0
+Recall: 0.995575221238938
+Accuracy: 0.9997728305315765
+Confusion matrix: 
+[[4176    0]
+ [   1  225]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      4176
+           1       1.00      1.00      1.00       226
+
+    accuracy                           1.00      4402
+   macro avg       1.00      1.00      1.00      4402
+weighted avg       1.00      1.00      1.00      4402
+
+Naive Bayes Classifier
+F1 score: 0.0
+Precision: 0.0
+Recall: 0.0
+Accuracy: 0.9486597001363016
+Confusion matrix: 
+[[4176    0]
+ [ 226    0]]
+Classification report:               precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97      4176
+           1       0.00      0.00      0.00       226
+
+    accuracy                           0.95      4402
+   macro avg       0.47      0.50      0.49      4402
+weighted avg       0.90      0.95      0.92      4402
+
+Logistic Regression Classifier
+F1 score: 0.9977827050997783
+Precision: 1.0
+Recall: 0.995575221238938
+Accuracy: 0.9997728305315765
+Confusion matrix: 
+[[4176    0]
+ [   1  225]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      4176
+           1       1.00      1.00      1.00       226
+
+    accuracy                           1.00      4402
+   macro avg       1.00      1.00      1.00      4402
+weighted avg       1.00      1.00      1.00      4402
+
+Support Vector Machine Classifier
+F1 score: 0.9910714285714286
+Precision: 1.0
+Recall: 0.9823008849557522
+Accuracy: 0.9990913221263062
+Confusion matrix: 
+[[4176    0]
+ [   4  222]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      4176
+           1       1.00      0.98      0.99       226
+
+    accuracy                           1.00      4402
+   macro avg       1.00      0.99      1.00      4402
+weighted avg       1.00      1.00      1.00      4402
+
+Decision Tree Classifier
+F1 score: 0.9977827050997783
+Precision: 1.0
+Recall: 0.995575221238938
+Accuracy: 0.9997728305315765
+Confusion matrix: 
+[[4176    0]
+ [   1  225]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      4176
+           1       1.00      1.00      1.00       226
+
+    accuracy                           1.00      4402
+   macro avg       1.00      1.00      1.00      4402
+weighted avg       1.00      1.00      1.00      4402
+
+K-Nearest Neighbors Classifier
+F1 score: 0.9977827050997783
+Precision: 1.0
+Recall: 0.995575221238938
+Accuracy: 0.9997728305315765
+Confusion matrix: 
+[[4176    0]
+ [   1  225]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      4176
+           1       1.00      1.00      1.00       226
+
+    accuracy                           1.00      4402
+   macro avg       1.00      1.00      1.00      4402
+weighted avg       1.00      1.00      1.00      4402
+
+Neural Network Classifier
+F1 score: 0.0
+Precision: 0.0
+Recall: 0.0
+Accuracy: 0.9486597001363016
+Confusion matrix: 
+[[4176    0]
+ [ 226    0]]
+Classification report:               precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97      4176
+           1       0.00      0.00      0.00       226
+
+    accuracy                           0.95      4402
+   macro avg       0.47      0.50      0.49      4402
+weighted avg       0.90      0.95      0.92      4402
+
+Deep Neural Network Classifier
+F1 score: 0.9977827050997783
+Precision: 1.0
+Recall: 0.995575221238938
+Accuracy: 0.9997728305315765
+Confusion matrix: 
+[[4176    0]
+ [   1  225]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      4176
+           1       1.00      1.00      1.00       226
+
+    accuracy                           1.00      4402
+   macro avg       1.00      1.00      1.00      4402
+weighted avg       1.00      1.00      1.00      4402
+
+Next training ratio: 0.35
+Random Forest Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[3882    0]
+ [   0  205]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3882
+           1       1.00      1.00      1.00       205
+
+    accuracy                           1.00      4087
+   macro avg       1.00      1.00      1.00      4087
+weighted avg       1.00      1.00      1.00      4087
+
+Naive Bayes Classifier
+F1 score: 0.0
+Precision: 0.0
+Recall: 0.0
+Accuracy: 0.9498409591387326
+Confusion matrix: 
+[[3882    0]
+ [ 205    0]]
+Classification report:               precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97      3882
+           1       0.00      0.00      0.00       205
+
+    accuracy                           0.95      4087
+   macro avg       0.47      0.50      0.49      4087
+weighted avg       0.90      0.95      0.93      4087
+
+Logistic Regression Classifier
+F1 score: 0.9975550122249389
+Precision: 1.0
+Recall: 0.9951219512195122
+Accuracy: 0.9997553217518963
+Confusion matrix: 
+[[3882    0]
+ [   1  204]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3882
+           1       1.00      1.00      1.00       205
+
+    accuracy                           1.00      4087
+   macro avg       1.00      1.00      1.00      4087
+weighted avg       1.00      1.00      1.00      4087
+
+Support Vector Machine Classifier
+F1 score: 0.9620253164556963
+Precision: 1.0
+Recall: 0.926829268292683
+Accuracy: 0.9963298262784438
+Confusion matrix: 
+[[3882    0]
+ [  15  190]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3882
+           1       1.00      0.93      0.96       205
+
+    accuracy                           1.00      4087
+   macro avg       1.00      0.96      0.98      4087
+weighted avg       1.00      1.00      1.00      4087
+
+Decision Tree Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[3882    0]
+ [   0  205]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3882
+           1       1.00      1.00      1.00       205
+
+    accuracy                           1.00      4087
+   macro avg       1.00      1.00      1.00      4087
+weighted avg       1.00      1.00      1.00      4087
+
+K-Nearest Neighbors Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[3882    0]
+ [   0  205]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3882
+           1       1.00      1.00      1.00       205
+
+    accuracy                           1.00      4087
+   macro avg       1.00      1.00      1.00      4087
+weighted avg       1.00      1.00      1.00      4087
+
+Neural Network Classifier
+F1 score: 0.0
+Precision: 0.0
+Recall: 0.0
+Accuracy: 0.9498409591387326
+Confusion matrix: 
+[[3882    0]
+ [ 205    0]]
+Classification report:               precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97      3882
+           1       0.00      0.00      0.00       205
+
+    accuracy                           0.95      4087
+   macro avg       0.47      0.50      0.49      4087
+weighted avg       0.90      0.95      0.93      4087
+
+Deep Neural Network Classifier
+F1 score: 0.9975550122249389
+Precision: 1.0
+Recall: 0.9951219512195122
+Accuracy: 0.9997553217518963
+Confusion matrix: 
+[[3882    0]
+ [   1  204]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3882
+           1       1.00      1.00      1.00       205
+
+    accuracy                           1.00      4087
+   macro avg       1.00      1.00      1.00      4087
+weighted avg       1.00      1.00      1.00      4087
+
+Next training ratio: 0.39999999999999997
+Random Forest Classifier
+F1 score: 0.9973753280839895
+Precision: 1.0
+Recall: 0.9947643979057592
+Accuracy: 0.9997348886532343
+Confusion matrix: 
+[[3581    0]
+ [   1  190]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3581
+           1       1.00      0.99      1.00       191
+
+    accuracy                           1.00      3772
+   macro avg       1.00      1.00      1.00      3772
+weighted avg       1.00      1.00      1.00      3772
+
+Naive Bayes Classifier
+F1 score: 0.0
+Precision: 0.0
+Recall: 0.0
+Accuracy: 0.9493637327677624
+Confusion matrix: 
+[[3581    0]
+ [ 191    0]]
+Classification report:               precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97      3581
+           1       0.00      0.00      0.00       191
+
+    accuracy                           0.95      3772
+   macro avg       0.47      0.50      0.49      3772
+weighted avg       0.90      0.95      0.92      3772
+
+Logistic Regression Classifier
+F1 score: 0.9973753280839895
+Precision: 1.0
+Recall: 0.9947643979057592
+Accuracy: 0.9997348886532343
+Confusion matrix: 
+[[3581    0]
+ [   1  190]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3581
+           1       1.00      0.99      1.00       191
+
+    accuracy                           1.00      3772
+   macro avg       1.00      1.00      1.00      3772
+weighted avg       1.00      1.00      1.00      3772
+
+Support Vector Machine Classifier
+F1 score: 0.9813333333333333
+Precision: 1.0
+Recall: 0.9633507853403142
+Accuracy: 0.9981442205726405
+Confusion matrix: 
+[[3581    0]
+ [   7  184]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3581
+           1       1.00      0.96      0.98       191
+
+    accuracy                           1.00      3772
+   macro avg       1.00      0.98      0.99      3772
+weighted avg       1.00      1.00      1.00      3772
+
+Decision Tree Classifier
+F1 score: 0.9973753280839895
+Precision: 1.0
+Recall: 0.9947643979057592
+Accuracy: 0.9997348886532343
+Confusion matrix: 
+[[3581    0]
+ [   1  190]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3581
+           1       1.00      0.99      1.00       191
+
+    accuracy                           1.00      3772
+   macro avg       1.00      1.00      1.00      3772
+weighted avg       1.00      1.00      1.00      3772
+
+K-Nearest Neighbors Classifier
+F1 score: 0.9973753280839895
+Precision: 1.0
+Recall: 0.9947643979057592
+Accuracy: 0.9997348886532343
+Confusion matrix: 
+[[3581    0]
+ [   1  190]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3581
+           1       1.00      0.99      1.00       191
+
+    accuracy                           1.00      3772
+   macro avg       1.00      1.00      1.00      3772
+weighted avg       1.00      1.00      1.00      3772
+
+Neural Network Classifier
+F1 score: 0.9973753280839895
+Precision: 1.0
+Recall: 0.9947643979057592
+Accuracy: 0.9997348886532343
+Confusion matrix: 
+[[3581    0]
+ [   1  190]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3581
+           1       1.00      0.99      1.00       191
+
+    accuracy                           1.00      3772
+   macro avg       1.00      1.00      1.00      3772
+weighted avg       1.00      1.00      1.00      3772
+
+Deep Neural Network Classifier
+F1 score: 0.9973753280839895
+Precision: 1.0
+Recall: 0.9947643979057592
+Accuracy: 0.9997348886532343
+Confusion matrix: 
+[[3581    0]
+ [   1  190]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3581
+           1       1.00      0.99      1.00       191
+
+    accuracy                           1.00      3772
+   macro avg       1.00      1.00      1.00      3772
+weighted avg       1.00      1.00      1.00      3772
+
+Next training ratio: 0.44999999999999996
+Random Forest Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[3284    0]
+ [   0  175]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3284
+           1       1.00      1.00      1.00       175
+
+    accuracy                           1.00      3459
+   macro avg       1.00      1.00      1.00      3459
+weighted avg       1.00      1.00      1.00      3459
+
+Naive Bayes Classifier
+F1 score: 0.0
+Precision: 0.0
+Recall: 0.0
+Accuracy: 0.9494073431627638
+Confusion matrix: 
+[[3284    0]
+ [ 175    0]]
+Classification report:               precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97      3284
+           1       0.00      0.00      0.00       175
+
+    accuracy                           0.95      3459
+   macro avg       0.47      0.50      0.49      3459
+weighted avg       0.90      0.95      0.92      3459
+
+Logistic Regression Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[3284    0]
+ [   0  175]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3284
+           1       1.00      1.00      1.00       175
+
+    accuracy                           1.00      3459
+   macro avg       1.00      1.00      1.00      3459
+weighted avg       1.00      1.00      1.00      3459
+
+Support Vector Machine Classifier
+F1 score: 0.9855072463768115
+Precision: 1.0
+Recall: 0.9714285714285714
+Accuracy: 0.9985544955189362
+Confusion matrix: 
+[[3284    0]
+ [   5  170]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3284
+           1       1.00      0.97      0.99       175
+
+    accuracy                           1.00      3459
+   macro avg       1.00      0.99      0.99      3459
+weighted avg       1.00      1.00      1.00      3459
+
+Decision Tree Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[3284    0]
+ [   0  175]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3284
+           1       1.00      1.00      1.00       175
+
+    accuracy                           1.00      3459
+   macro avg       1.00      1.00      1.00      3459
+weighted avg       1.00      1.00      1.00      3459
+
+K-Nearest Neighbors Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[3284    0]
+ [   0  175]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3284
+           1       1.00      1.00      1.00       175
+
+    accuracy                           1.00      3459
+   macro avg       1.00      1.00      1.00      3459
+weighted avg       1.00      1.00      1.00      3459
+
+Neural Network Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[3284    0]
+ [   0  175]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3284
+           1       1.00      1.00      1.00       175
+
+    accuracy                           1.00      3459
+   macro avg       1.00      1.00      1.00      3459
+weighted avg       1.00      1.00      1.00      3459
+
+Deep Neural Network Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[3284    0]
+ [   0  175]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      3284
+           1       1.00      1.00      1.00       175
+
+    accuracy                           1.00      3459
+   macro avg       1.00      1.00      1.00      3459
+weighted avg       1.00      1.00      1.00      3459
+
+Next training ratio: 0.49999999999999994
+Random Forest Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[2987    0]
+ [   0  157]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2987
+           1       1.00      1.00      1.00       157
+
+    accuracy                           1.00      3144
+   macro avg       1.00      1.00      1.00      3144
+weighted avg       1.00      1.00      1.00      3144
+
+Naive Bayes Classifier
+F1 score: 0.0
+Precision: 0.0
+Recall: 0.0
+Accuracy: 0.9500636132315522
+Confusion matrix: 
+[[2987    0]
+ [ 157    0]]
+Classification report:               precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97      2987
+           1       0.00      0.00      0.00       157
+
+    accuracy                           0.95      3144
+   macro avg       0.48      0.50      0.49      3144
+weighted avg       0.90      0.95      0.93      3144
+
+Logistic Regression Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[2987    0]
+ [   0  157]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2987
+           1       1.00      1.00      1.00       157
+
+    accuracy                           1.00      3144
+   macro avg       1.00      1.00      1.00      3144
+weighted avg       1.00      1.00      1.00      3144
+
+Support Vector Machine Classifier
+F1 score: 0.9968051118210862
+Precision: 1.0
+Recall: 0.9936305732484076
+Accuracy: 0.9996819338422391
+Confusion matrix: 
+[[2987    0]
+ [   1  156]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2987
+           1       1.00      0.99      1.00       157
+
+    accuracy                           1.00      3144
+   macro avg       1.00      1.00      1.00      3144
+weighted avg       1.00      1.00      1.00      3144
+
+Decision Tree Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[2987    0]
+ [   0  157]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2987
+           1       1.00      1.00      1.00       157
+
+    accuracy                           1.00      3144
+   macro avg       1.00      1.00      1.00      3144
+weighted avg       1.00      1.00      1.00      3144
+
+K-Nearest Neighbors Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[2987    0]
+ [   0  157]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2987
+           1       1.00      1.00      1.00       157
+
+    accuracy                           1.00      3144
+   macro avg       1.00      1.00      1.00      3144
+weighted avg       1.00      1.00      1.00      3144
+
+Neural Network Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[2987    0]
+ [   0  157]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2987
+           1       1.00      1.00      1.00       157
+
+    accuracy                           1.00      3144
+   macro avg       1.00      1.00      1.00      3144
+weighted avg       1.00      1.00      1.00      3144
+
+Deep Neural Network Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[2987    0]
+ [   0  157]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2987
+           1       1.00      1.00      1.00       157
+
+    accuracy                           1.00      3144
+   macro avg       1.00      1.00      1.00      3144
+weighted avg       1.00      1.00      1.00      3144
+
+Next training ratio: 0.5499999999999999
+Random Forest Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[2687    0]
+ [   0  142]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2687
+           1       1.00      1.00      1.00       142
+
+    accuracy                           1.00      2829
+   macro avg       1.00      1.00      1.00      2829
+weighted avg       1.00      1.00      1.00      2829
+
+Naive Bayes Classifier
+F1 score: 0.0
+Precision: 0.0
+Recall: 0.0
+Accuracy: 0.9498055850123719
+Confusion matrix: 
+[[2687    0]
+ [ 142    0]]
+Classification report:               precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97      2687
+           1       0.00      0.00      0.00       142
+
+    accuracy                           0.95      2829
+   macro avg       0.47      0.50      0.49      2829
+weighted avg       0.90      0.95      0.93      2829
+
+Logistic Regression Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[2687    0]
+ [   0  142]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2687
+           1       1.00      1.00      1.00       142
+
+    accuracy                           1.00      2829
+   macro avg       1.00      1.00      1.00      2829
+weighted avg       1.00      1.00      1.00      2829
+
+Support Vector Machine Classifier
+F1 score: 0.9929078014184397
+Precision: 1.0
+Recall: 0.9859154929577465
+Accuracy: 0.999293036408625
+Confusion matrix: 
+[[2687    0]
+ [   2  140]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2687
+           1       1.00      0.99      0.99       142
+
+    accuracy                           1.00      2829
+   macro avg       1.00      0.99      1.00      2829
+weighted avg       1.00      1.00      1.00      2829
+
+Decision Tree Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[2687    0]
+ [   0  142]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2687
+           1       1.00      1.00      1.00       142
+
+    accuracy                           1.00      2829
+   macro avg       1.00      1.00      1.00      2829
+weighted avg       1.00      1.00      1.00      2829
+
+K-Nearest Neighbors Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[2687    0]
+ [   0  142]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2687
+           1       1.00      1.00      1.00       142
+
+    accuracy                           1.00      2829
+   macro avg       1.00      1.00      1.00      2829
+weighted avg       1.00      1.00      1.00      2829
+
+Neural Network Classifier
+F1 score: 0.9964912280701755
+Precision: 0.993006993006993
+Recall: 1.0
+Accuracy: 0.9996465182043125
+Confusion matrix: 
+[[2686    1]
+ [   0  142]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2687
+           1       0.99      1.00      1.00       142
+
+    accuracy                           1.00      2829
+   macro avg       1.00      1.00      1.00      2829
+weighted avg       1.00      1.00      1.00      2829
+
+Deep Neural Network Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[2687    0]
+ [   0  142]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2687
+           1       1.00      1.00      1.00       142
+
+    accuracy                           1.00      2829
+   macro avg       1.00      1.00      1.00      2829
+weighted avg       1.00      1.00      1.00      2829
+
+Next training ratio: 0.6
+Random Forest Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[2398    0]
+ [   0  118]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2398
+           1       1.00      1.00      1.00       118
+
+    accuracy                           1.00      2516
+   macro avg       1.00      1.00      1.00      2516
+weighted avg       1.00      1.00      1.00      2516
+
+Naive Bayes Classifier
+F1 score: 0.0
+Precision: 0.0
+Recall: 0.0
+Accuracy: 0.9531001589825119
+Confusion matrix: 
+[[2398    0]
+ [ 118    0]]
+Classification report:               precision    recall  f1-score   support
+
+           0       0.95      1.00      0.98      2398
+           1       0.00      0.00      0.00       118
+
+    accuracy                           0.95      2516
+   macro avg       0.48      0.50      0.49      2516
+weighted avg       0.91      0.95      0.93      2516
+
+Logistic Regression Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[2398    0]
+ [   0  118]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2398
+           1       1.00      1.00      1.00       118
+
+    accuracy                           1.00      2516
+   macro avg       1.00      1.00      1.00      2516
+weighted avg       1.00      1.00      1.00      2516
+
+Support Vector Machine Classifier
+F1 score: 0.9914529914529915
+Precision: 1.0
+Recall: 0.9830508474576272
+Accuracy: 0.9992050874403816
+Confusion matrix: 
+[[2398    0]
+ [   2  116]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2398
+           1       1.00      0.98      0.99       118
+
+    accuracy                           1.00      2516
+   macro avg       1.00      0.99      1.00      2516
+weighted avg       1.00      1.00      1.00      2516
+
+Decision Tree Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[2398    0]
+ [   0  118]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2398
+           1       1.00      1.00      1.00       118
+
+    accuracy                           1.00      2516
+   macro avg       1.00      1.00      1.00      2516
+weighted avg       1.00      1.00      1.00      2516
+
+K-Nearest Neighbors Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[2398    0]
+ [   0  118]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2398
+           1       1.00      1.00      1.00       118
+
+    accuracy                           1.00      2516
+   macro avg       1.00      1.00      1.00      2516
+weighted avg       1.00      1.00      1.00      2516
+
+Neural Network Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[2398    0]
+ [   0  118]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2398
+           1       1.00      1.00      1.00       118
+
+    accuracy                           1.00      2516
+   macro avg       1.00      1.00      1.00      2516
+weighted avg       1.00      1.00      1.00      2516
+
+Deep Neural Network Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[2398    0]
+ [   0  118]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2398
+           1       1.00      1.00      1.00       118
+
+    accuracy                           1.00      2516
+   macro avg       1.00      1.00      1.00      2516
+weighted avg       1.00      1.00      1.00      2516
+
+Next training ratio: 0.65
+Random Forest Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[2087    0]
+ [   0  114]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2087
+           1       1.00      1.00      1.00       114
+
+    accuracy                           1.00      2201
+   macro avg       1.00      1.00      1.00      2201
+weighted avg       1.00      1.00      1.00      2201
+
+Naive Bayes Classifier
+F1 score: 0.0
+Precision: 0.0
+Recall: 0.0
+Accuracy: 0.9482053611994548
+Confusion matrix: 
+[[2087    0]
+ [ 114    0]]
+Classification report:               precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97      2087
+           1       0.00      0.00      0.00       114
+
+    accuracy                           0.95      2201
+   macro avg       0.47      0.50      0.49      2201
+weighted avg       0.90      0.95      0.92      2201
+
+Logistic Regression Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[2087    0]
+ [   0  114]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2087
+           1       1.00      1.00      1.00       114
+
+    accuracy                           1.00      2201
+   macro avg       1.00      1.00      1.00      2201
+weighted avg       1.00      1.00      1.00      2201
+
+Support Vector Machine Classifier
+F1 score: 0.9956331877729258
+Precision: 0.991304347826087
+Recall: 1.0
+Accuracy: 0.9995456610631531
+Confusion matrix: 
+[[2086    1]
+ [   0  114]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2087
+           1       0.99      1.00      1.00       114
+
+    accuracy                           1.00      2201
+   macro avg       1.00      1.00      1.00      2201
+weighted avg       1.00      1.00      1.00      2201
+
+Decision Tree Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[2087    0]
+ [   0  114]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2087
+           1       1.00      1.00      1.00       114
+
+    accuracy                           1.00      2201
+   macro avg       1.00      1.00      1.00      2201
+weighted avg       1.00      1.00      1.00      2201
+
+K-Nearest Neighbors Classifier
+F1 score: 0.9956331877729258
+Precision: 0.991304347826087
+Recall: 1.0
+Accuracy: 0.9995456610631531
+Confusion matrix: 
+[[2086    1]
+ [   0  114]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2087
+           1       0.99      1.00      1.00       114
+
+    accuracy                           1.00      2201
+   macro avg       1.00      1.00      1.00      2201
+weighted avg       1.00      1.00      1.00      2201
+
+Neural Network Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[2087    0]
+ [   0  114]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2087
+           1       1.00      1.00      1.00       114
+
+    accuracy                           1.00      2201
+   macro avg       1.00      1.00      1.00      2201
+weighted avg       1.00      1.00      1.00      2201
+
+Deep Neural Network Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[2087    0]
+ [   0  114]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      2087
+           1       1.00      1.00      1.00       114
+
+    accuracy                           1.00      2201
+   macro avg       1.00      1.00      1.00      2201
+weighted avg       1.00      1.00      1.00      2201
+
+Next training ratio: 0.7000000000000001
+Random Forest Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[1795    0]
+ [   0   91]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1795
+           1       1.00      1.00      1.00        91
+
+    accuracy                           1.00      1886
+   macro avg       1.00      1.00      1.00      1886
+weighted avg       1.00      1.00      1.00      1886
+
+Naive Bayes Classifier
+F1 score: 0.0
+Precision: 0.0
+Recall: 0.0
+Accuracy: 0.9517497348886532
+Confusion matrix: 
+[[1795    0]
+ [  91    0]]
+Classification report:               precision    recall  f1-score   support
+
+           0       0.95      1.00      0.98      1795
+           1       0.00      0.00      0.00        91
+
+    accuracy                           0.95      1886
+   macro avg       0.48      0.50      0.49      1886
+weighted avg       0.91      0.95      0.93      1886
+
+Logistic Regression Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[1795    0]
+ [   0   91]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1795
+           1       1.00      1.00      1.00        91
+
+    accuracy                           1.00      1886
+   macro avg       1.00      1.00      1.00      1886
+weighted avg       1.00      1.00      1.00      1886
+
+Support Vector Machine Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[1795    0]
+ [   0   91]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1795
+           1       1.00      1.00      1.00        91
+
+    accuracy                           1.00      1886
+   macro avg       1.00      1.00      1.00      1886
+weighted avg       1.00      1.00      1.00      1886
+
+Decision Tree Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[1795    0]
+ [   0   91]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1795
+           1       1.00      1.00      1.00        91
+
+    accuracy                           1.00      1886
+   macro avg       1.00      1.00      1.00      1886
+weighted avg       1.00      1.00      1.00      1886
+
+K-Nearest Neighbors Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[1795    0]
+ [   0   91]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1795
+           1       1.00      1.00      1.00        91
+
+    accuracy                           1.00      1886
+   macro avg       1.00      1.00      1.00      1886
+weighted avg       1.00      1.00      1.00      1886
+
+Neural Network Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[1795    0]
+ [   0   91]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1795
+           1       1.00      1.00      1.00        91
+
+    accuracy                           1.00      1886
+   macro avg       1.00      1.00      1.00      1886
+weighted avg       1.00      1.00      1.00      1886
+
+Deep Neural Network Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[1795    0]
+ [   0   91]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1795
+           1       1.00      1.00      1.00        91
+
+    accuracy                           1.00      1886
+   macro avg       1.00      1.00      1.00      1886
+weighted avg       1.00      1.00      1.00      1886
+
+Next training ratio: 0.7500000000000001
+Random Forest Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[1499    0]
+ [   0   74]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1499
+           1       1.00      1.00      1.00        74
+
+    accuracy                           1.00      1573
+   macro avg       1.00      1.00      1.00      1573
+weighted avg       1.00      1.00      1.00      1573
+
+Naive Bayes Classifier
+F1 score: 0.0
+Precision: 0.0
+Recall: 0.0
+Accuracy: 0.9529561347743166
+Confusion matrix: 
+[[1499    0]
+ [  74    0]]
+Classification report:               precision    recall  f1-score   support
+
+           0       0.95      1.00      0.98      1499
+           1       0.00      0.00      0.00        74
+
+    accuracy                           0.95      1573
+   macro avg       0.48      0.50      0.49      1573
+weighted avg       0.91      0.95      0.93      1573
+
+Logistic Regression Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[1499    0]
+ [   0   74]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1499
+           1       1.00      1.00      1.00        74
+
+    accuracy                           1.00      1573
+   macro avg       1.00      1.00      1.00      1573
+weighted avg       1.00      1.00      1.00      1573
+
+Support Vector Machine Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[1499    0]
+ [   0   74]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1499
+           1       1.00      1.00      1.00        74
+
+    accuracy                           1.00      1573
+   macro avg       1.00      1.00      1.00      1573
+weighted avg       1.00      1.00      1.00      1573
+
+Decision Tree Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[1499    0]
+ [   0   74]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1499
+           1       1.00      1.00      1.00        74
+
+    accuracy                           1.00      1573
+   macro avg       1.00      1.00      1.00      1573
+weighted avg       1.00      1.00      1.00      1573
+
+K-Nearest Neighbors Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[1499    0]
+ [   0   74]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1499
+           1       1.00      1.00      1.00        74
+
+    accuracy                           1.00      1573
+   macro avg       1.00      1.00      1.00      1573
+weighted avg       1.00      1.00      1.00      1573
+
+Neural Network Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[1499    0]
+ [   0   74]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1499
+           1       1.00      1.00      1.00        74
+
+    accuracy                           1.00      1573
+   macro avg       1.00      1.00      1.00      1573
+weighted avg       1.00      1.00      1.00      1573
+
+Deep Neural Network Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[1499    0]
+ [   0   74]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1499
+           1       1.00      1.00      1.00        74
+
+    accuracy                           1.00      1573
+   macro avg       1.00      1.00      1.00      1573
+weighted avg       1.00      1.00      1.00      1573
+
+Next training ratio: 0.8000000000000002
+Random Forest Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[1206    0]
+ [   0   52]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1206
+           1       1.00      1.00      1.00        52
+
+    accuracy                           1.00      1258
+   macro avg       1.00      1.00      1.00      1258
+weighted avg       1.00      1.00      1.00      1258
+
+Naive Bayes Classifier
+F1 score: 0.0
+Precision: 0.0
+Recall: 0.0
+Accuracy: 0.958664546899841
+Confusion matrix: 
+[[1206    0]
+ [  52    0]]
+Classification report:               precision    recall  f1-score   support
+
+           0       0.96      1.00      0.98      1206
+           1       0.00      0.00      0.00        52
+
+    accuracy                           0.96      1258
+   macro avg       0.48      0.50      0.49      1258
+weighted avg       0.92      0.96      0.94      1258
+
+Logistic Regression Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[1206    0]
+ [   0   52]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1206
+           1       1.00      1.00      1.00        52
+
+    accuracy                           1.00      1258
+   macro avg       1.00      1.00      1.00      1258
+weighted avg       1.00      1.00      1.00      1258
+
+Support Vector Machine Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[1206    0]
+ [   0   52]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1206
+           1       1.00      1.00      1.00        52
+
+    accuracy                           1.00      1258
+   macro avg       1.00      1.00      1.00      1258
+weighted avg       1.00      1.00      1.00      1258
+
+Decision Tree Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[1206    0]
+ [   0   52]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1206
+           1       1.00      1.00      1.00        52
+
+    accuracy                           1.00      1258
+   macro avg       1.00      1.00      1.00      1258
+weighted avg       1.00      1.00      1.00      1258
+
+K-Nearest Neighbors Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[1206    0]
+ [   0   52]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1206
+           1       1.00      1.00      1.00        52
+
+    accuracy                           1.00      1258
+   macro avg       1.00      1.00      1.00      1258
+weighted avg       1.00      1.00      1.00      1258
+
+Neural Network Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[1206    0]
+ [   0   52]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1206
+           1       1.00      1.00      1.00        52
+
+    accuracy                           1.00      1258
+   macro avg       1.00      1.00      1.00      1258
+weighted avg       1.00      1.00      1.00      1258
+
+Deep Neural Network Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[1206    0]
+ [   0   52]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1206
+           1       1.00      1.00      1.00        52
+
+    accuracy                           1.00      1258
+   macro avg       1.00      1.00      1.00      1258
+weighted avg       1.00      1.00      1.00      1258
+
+Next training ratio: 0.8500000000000002
+Random Forest Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[898   0]
+ [  0  45]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       898
+           1       1.00      1.00      1.00        45
+
+    accuracy                           1.00       943
+   macro avg       1.00      1.00      1.00       943
+weighted avg       1.00      1.00      1.00       943
+
+Naive Bayes Classifier
+F1 score: 0.0
+Precision: 0.0
+Recall: 0.0
+Accuracy: 0.9522799575821845
+Confusion matrix: 
+[[898   0]
+ [ 45   0]]
+Classification report:               precision    recall  f1-score   support
+
+           0       0.95      1.00      0.98       898
+           1       0.00      0.00      0.00        45
+
+    accuracy                           0.95       943
+   macro avg       0.48      0.50      0.49       943
+weighted avg       0.91      0.95      0.93       943
+
+Logistic Regression Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[898   0]
+ [  0  45]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       898
+           1       1.00      1.00      1.00        45
+
+    accuracy                           1.00       943
+   macro avg       1.00      1.00      1.00       943
+weighted avg       1.00      1.00      1.00       943
+
+Support Vector Machine Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[898   0]
+ [  0  45]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       898
+           1       1.00      1.00      1.00        45
+
+    accuracy                           1.00       943
+   macro avg       1.00      1.00      1.00       943
+weighted avg       1.00      1.00      1.00       943
+
+Decision Tree Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[898   0]
+ [  0  45]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       898
+           1       1.00      1.00      1.00        45
+
+    accuracy                           1.00       943
+   macro avg       1.00      1.00      1.00       943
+weighted avg       1.00      1.00      1.00       943
+
+K-Nearest Neighbors Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[898   0]
+ [  0  45]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       898
+           1       1.00      1.00      1.00        45
+
+    accuracy                           1.00       943
+   macro avg       1.00      1.00      1.00       943
+weighted avg       1.00      1.00      1.00       943
+
+Neural Network Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[898   0]
+ [  0  45]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       898
+           1       1.00      1.00      1.00        45
+
+    accuracy                           1.00       943
+   macro avg       1.00      1.00      1.00       943
+weighted avg       1.00      1.00      1.00       943
+
+Deep Neural Network Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[898   0]
+ [  0  45]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       898
+           1       1.00      1.00      1.00        45
+
+    accuracy                           1.00       943
+   macro avg       1.00      1.00      1.00       943
+weighted avg       1.00      1.00      1.00       943
+
+Next training ratio: 0.9000000000000002
+Random Forest Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[593   0]
+ [  0  37]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       593
+           1       1.00      1.00      1.00        37
+
+    accuracy                           1.00       630
+   macro avg       1.00      1.00      1.00       630
+weighted avg       1.00      1.00      1.00       630
+
+Naive Bayes Classifier
+F1 score: 0.0
+Precision: 0.0
+Recall: 0.0
+Accuracy: 0.9412698412698413
+Confusion matrix: 
+[[593   0]
+ [ 37   0]]
+Classification report:               precision    recall  f1-score   support
+
+           0       0.94      1.00      0.97       593
+           1       0.00      0.00      0.00        37
+
+    accuracy                           0.94       630
+   macro avg       0.47      0.50      0.48       630
+weighted avg       0.89      0.94      0.91       630
+
+Logistic Regression Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[593   0]
+ [  0  37]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       593
+           1       1.00      1.00      1.00        37
+
+    accuracy                           1.00       630
+   macro avg       1.00      1.00      1.00       630
+weighted avg       1.00      1.00      1.00       630
+
+Support Vector Machine Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[593   0]
+ [  0  37]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       593
+           1       1.00      1.00      1.00        37
+
+    accuracy                           1.00       630
+   macro avg       1.00      1.00      1.00       630
+weighted avg       1.00      1.00      1.00       630
+
+Decision Tree Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[593   0]
+ [  0  37]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       593
+           1       1.00      1.00      1.00        37
+
+    accuracy                           1.00       630
+   macro avg       1.00      1.00      1.00       630
+weighted avg       1.00      1.00      1.00       630
+
+K-Nearest Neighbors Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[593   0]
+ [  0  37]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       593
+           1       1.00      1.00      1.00        37
+
+    accuracy                           1.00       630
+   macro avg       1.00      1.00      1.00       630
+weighted avg       1.00      1.00      1.00       630
+
+Neural Network Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[593   0]
+ [  0  37]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       593
+           1       1.00      1.00      1.00        37
+
+    accuracy                           1.00       630
+   macro avg       1.00      1.00      1.00       630
+weighted avg       1.00      1.00      1.00       630
+
+Deep Neural Network Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[593   0]
+ [  0  37]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       593
+           1       1.00      1.00      1.00        37
+
+    accuracy                           1.00       630
+   macro avg       1.00      1.00      1.00       630
+weighted avg       1.00      1.00      1.00       630
+
+Next training ratio: 0.9500000000000003
+Random Forest Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[300   0]
+ [  0  15]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       300
+           1       1.00      1.00      1.00        15
+
+    accuracy                           1.00       315
+   macro avg       1.00      1.00      1.00       315
+weighted avg       1.00      1.00      1.00       315
+
+Naive Bayes Classifier
+F1 score: 0.0
+Precision: 0.0
+Recall: 0.0
+Accuracy: 0.9523809523809523
+Confusion matrix: 
+[[300   0]
+ [ 15   0]]
+Classification report:               precision    recall  f1-score   support
+
+           0       0.95      1.00      0.98       300
+           1       0.00      0.00      0.00        15
+
+    accuracy                           0.95       315
+   macro avg       0.48      0.50      0.49       315
+weighted avg       0.91      0.95      0.93       315
+
+Logistic Regression Classifier
+F1 score: 1.0
+Precision: 1.0
+Recall: 1.0
+Accuracy: 1.0
+Confusion matrix: 
+[[300   0]
+ [  0  15]]
+Classification report:               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       300
+           1       1.00      1.00      1.00        15
+
+    accuracy                           1.00       315
+   macro avg       1.00      1.00      1.00       315
+weighted avg       1.00      1.00      1.00       315
+
